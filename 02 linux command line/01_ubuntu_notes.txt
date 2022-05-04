@@ -1,0 +1,37 @@
+# docker run ubuntu (it first check the ubuntu locally, if its not install then its pull the ubuntu but container doesn't run yet)
+
+# docker ps (checking running process or images)
+
+# docker ps -a (checking docker stopped process or images)
+
+# docker run -it ubuntu (Run the ubuntu locally with initialize flag)
+
+# Some linux command
+    - whoami (root, checking current user)
+    - echo $0 (checking bash)
+    - history ( list of command )
+    - !2 (Run second command from the history)
+    - apt list (Checking package list, apt = advance package tool)
+    - apt update (update packages)
+    - apt install nano (install nano package)
+    - apt remove nano (remove nano package)
+    - pwd (print working directory, checking where we are in the file system)
+    - ls (file list, checking files directory)
+    - ls -1 (files list show vertically)
+    - ls -l (showing long list of files)
+    - cd (change directory)
+    - cd / (root directory)
+    - cd etc (press tab for autocomplete etc/ , etc/a pressing double tab for showing suggestions)
+    - cd ../ (move to up)
+    - cd ~ (go to home directory)
+    - mkdir test (making a directory test)
+    - mv test docker (move or rename test file to docker)
+    - touch hello.txt (create a new file hello.txt)
+    - touch file1.txt file2.txt file3.txt (creating mulitple files)
+    - mv hello.txt hello-docker.txt (rename hello.txt file to hello-docker.txt file)
+    - rm file1.txt (remove file)
+    - rm file1.txt file2.txt (remove multiple files)
+    - rm file* (remove grouping files)
+    - rm -r docker/  (remove directory -r flag means recursive)
+
+
