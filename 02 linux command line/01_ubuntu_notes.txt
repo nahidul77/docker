@@ -6,7 +6,7 @@
 
 # docker run -it ubuntu (Run the ubuntu locally with initialize flag)
 
-# docker start -ai myubuntu (Run existed container)
+# docker start -ai myubuntu (Run existed container, myubuntu is a container name)
 
 # Some linux command
     - whoami (root, checking current user)
@@ -35,5 +35,10 @@
     - rm file1.txt file2.txt (remove multiple files)
     - rm file* (remove grouping files)
     - rm -r docker/  (remove directory -r flag means recursive)
+    - cat file1.txt (cat => concatinate, read the file. useful small content)
+    - more /etc/adduser.conf (only scroll down, cannot scroll up, press space to scroll next page, press enter to go one line at a time)
+    - less /etc/adduser.conf (By less we can scroll up and down, press q for quit the scroller)
+    - head -n 5 /etc/adduser.conf (show the first 5 lines)
+    - tail -n 5 /etc/adduser.conf (show the last 5 lines)
 
 
