@@ -6,6 +6,8 @@
 
 # docker run -it ubuntu (Run the ubuntu locally with initialize flag)
 
+# docker start -ai myubuntu (Run existed container)
+
 # Some linux command
     - whoami (root, checking current user)
     - echo $0 (checking bash)
