@@ -35,10 +35,24 @@
     - rm file1.txt file2.txt (remove multiple files)
     - rm file* (remove grouping files)
     - rm -r docker/  (remove directory -r flag means recursive)
+
+    #Editing and view files
     - cat file1.txt (cat => concatinate, read the file. useful small content)
     - more /etc/adduser.conf (only scroll down, cannot scroll up, press space to scroll next page, press enter to go one line at a time)
     - less /etc/adduser.conf (By less we can scroll up and down, press q for quit the scroller)
     - head -n 5 /etc/adduser.conf (show the first 5 lines)
     - tail -n 5 /etc/adduser.conf (show the last 5 lines)
+
+    #Redirection
+    @ std input represent keyboard and std output represent screen. But when we change this input and output called redirection. redirection operator are > (redirection for output) < (redirection for input) .
+
+    - cat file1.txt > file2.txt (so file1 content added to the file2 by redirection output)
+    - cat file1.txt file2.txt (Showing same content in the both file)
+    - cat file1.txt file2.txt > combine.txt (Both file concatinate or combine to the combine.txt file)
+    - echo hello (output hello to the terminal)
+    - echo hello > hello.txt ( hello text write to the hello.txt file, alternate of nano for small amount of text )
+    - ls -l /etc > files.txt (information write to the files.txt)
+
+
 
 
